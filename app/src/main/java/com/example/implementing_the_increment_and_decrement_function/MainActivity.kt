@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             textview.text = number.toString()
         }
         button2.setOnClickListener(){
-            if(textview.text.toString() != null && textview.text.toString().toInt() > 0){
+            if(textview.text.toString().toInt() > 0){
                 number -= 1
                 textview.text = number.toString()
             }
