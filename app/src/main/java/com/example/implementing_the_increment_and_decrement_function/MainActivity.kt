@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        addNumber()
+        incrementAndDecrement()
     }
 
-    private fun addNumber() {
+    private fun incrementAndDecrement() {
         val textview  = findViewById<TextView>(R.id.numberView)
         val button1 = findViewById<Button>(R.id.addButton)
         val button2 = findViewById<Button>(R.id.subtractButton)
