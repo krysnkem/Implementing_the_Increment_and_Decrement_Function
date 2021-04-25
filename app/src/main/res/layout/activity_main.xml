@@ -13,9 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/helloWorld"
-        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="18dp"
-        android:text="0"
+        android:text="@string/zero"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -23,7 +23,7 @@
         android:id="@+id/helloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
         android:text="Hello World!"
         android:textSize="20sp"
         android:textStyle="bold"/>
@@ -33,11 +33,13 @@
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="135dp"
+        android:layout_marginBottom="20dp"
         android:textColor="#E8FFBA"
-        android:text="Add"
-        app:icon="@drawable/cross" />
+        android:text="@string/add"
+        app:icon="@drawable/cross"
+        android:background="@drawable/buttonformat"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/subtractButton"
@@ -46,7 +48,8 @@
         android:layout_below="@+id/addButton"
         android:textColor="#E8FFBA"
         android:layout_marginTop="-2dp"
-        android:text="Subtract"
-        app:icon="@drawable/icons_subtract" />
+        android:text="@string/Subract"
+        app:icon="@drawable/icons_subtract"
+        android:background="@drawable/buttonformat"/>
 
 </RelativeLayout>
